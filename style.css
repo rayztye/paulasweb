@@ -1,0 +1,42 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+     height: 60px;
+     background-color: #333;
+}
+
+.title {
+    font-size: 25px;
+    float: left;
+    display: flex;
+    color: #fff;
+    padding: 15px;
+}
+
+header > ul {
+    font-size: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    float: right;
+}
+
+header > ul > li > a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+header > ul > li > a:hover {
+    background-color: #111;
+}
