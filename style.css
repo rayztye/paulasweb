@@ -40,3 +40,39 @@ header > ul > li > a {
 header > ul > li > a:hover {
     background-color: #111;
 }
+
+.active {
+    background-color: #111;
+}
+
+.line {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+.products {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.price {
+    bottom: 0;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
